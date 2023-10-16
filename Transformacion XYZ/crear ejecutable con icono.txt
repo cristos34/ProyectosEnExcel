@@ -1,0 +1,19 @@
+1. Abrir simbolo del sistema o cmd
+2. Installar pyinstaller: pip install pyinstaller
+3. Ir a la ruta donde queremos guardar el archivo ejemplo:cd C:\Users\CAC\Desktop\ETL_Obyco
+4. Escribir los parametros del ejecutable.
+     1.  pyinstaller = permite crear el ejecutable
+     2.  --onefile   = para que todo se compile en un solo archivo
+     3.  -w          = para que no habra la terminal de visual code en el momento de ejecutarse
+     4.  --icon=nombre de la imagen icono.ico = permite que el ejecutable tenga una icono
+     5.  nombre del archivo a compilar.py ejemplo TransformarListaDosV1.py
+
+         pyinstaller --onefile -w --icon=cac.ico TransformarListaDosV1.py
+     
+     C:\Users\CAC\Desktop\ETL_Obyco>pyinstaller --onefile -w --icon=cac.ico TransformarListaDosV1.py
+
+5. Buscar el ejecutable (.exe) en la carpeta dist.
+
+LINK del video guia: https://www.youtube.com/watch?v=dc2RnCB9rp0&t=533s
+
+        
